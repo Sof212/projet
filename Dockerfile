@@ -10,7 +10,7 @@ COPY . /projet
 RUN pip install -r requirements.txt
 
 # listen port de mon app
-EXPOSE 5000
+EXPOSE 5001
 
 # Lancer l'app
 CMD ["python", "app.py"]
